@@ -5,7 +5,8 @@ body {
 	font-size: 20px;
 	font-family: '微软雅黑', '宋体', sans-serif;
 	color: #000000;
-	overflow: auto
+	overflow: auto;
+	font-family: cursive;
 }
 
 a {
@@ -35,7 +36,7 @@ a {
 
 #code {
 	display: none;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 #clock-box {
@@ -44,11 +45,14 @@ a {
 	top: 550px;
 	font-size: 28px;
 	display: none;
+	color: #ff8460;
 }
 
 #clock-box a {
 	font-size: 28px;
 	text-decoration: none;
+	font-family: cursive;
+	color: #ff7b1e;
 }
 
 #clock {
@@ -56,7 +60,9 @@ a {
 }
 
 #clock .digit {
-	font-size: 64px;
+	font-size: 42px;
+	font-family: cursive;
+	color:#ff7b1e;
 }
 
 #canvas {
@@ -78,6 +84,7 @@ a {
 
 .say {
 	margin-left: 5px;
+	color: #ff4f06;
 }
 
 .space {
